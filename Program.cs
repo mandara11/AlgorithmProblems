@@ -7,6 +7,9 @@
             Console.WriteLine("Welcome to Algorithm Problem");
             InsertionSort insertionSortDemo = new InsertionSort();
             insertionSortDemo.CheckSorting();
+
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.Sorting();
         }
     }
 }
