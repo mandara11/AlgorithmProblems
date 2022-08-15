@@ -22,7 +22,10 @@
             //Anagram anagram = new Anagram();
             //anagram.checkAnagram();
 
-            PrimeNumberRange.CheckPrimeNumbers();
+            //PrimeNumberRange.CheckPrimeNumbers();
+
+            PrimePolindrome primePalindrome = new PrimePolindrome();
+            primePalindrome.CheckPalindromNumber();
         }
     }
 }
