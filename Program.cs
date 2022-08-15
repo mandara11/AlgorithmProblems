@@ -19,8 +19,10 @@
             //Console.WriteLine("unsorted array");
             //mergeSort.DisplayMerge(arr4);
 
-            Anagram anagram = new Anagram();
-            anagram.checkAnagram();
+            //Anagram anagram = new Anagram();
+            //anagram.checkAnagram();
+
+            PrimeNumberRange.CheckPrimeNumbers();
         }
     }
 }
