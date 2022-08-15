@@ -24,8 +24,12 @@
 
             //PrimeNumberRange.CheckPrimeNumbers();
 
-            PrimePolindrome primePalindrome = new PrimePolindrome();
-            primePalindrome.CheckPalindromNumber();
+            //PrimePolindrome primePalindrome = new PrimePolindrome();
+            //primePalindrome.CheckPalindromNumber();
+
+            GuessNumber guessNumber = new GuessNumber();
+            Console.WriteLine("Guess a number between 0 to 127");
+            Console.WriteLine("Guessed no is :" + guessNumber.Guess());
         }
     }
 }
